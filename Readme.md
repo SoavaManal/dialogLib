@@ -1,4 +1,4 @@
-#React Dialog Component
+# React Dialog Component
 
 This is a simple React dialog component designed for easy integration into your web applications. It provides a customizable modal with options for displaying a title, message, and buttons for user interaction.
 
@@ -14,7 +14,7 @@ import Dialog from "dialog";
 
 ## Usage
 
-![usage de compenent](""./assets_readme/code.png)
+![usage de compenent]("./assets_readme/code.png")
 
 ## Props
 
