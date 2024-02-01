@@ -1,0 +1,16 @@
+{
+  "name": "dialog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/lib.umd.js",
+  "module": "./dist/lib.module.js",
+  "source": "src/lib.package.js",
+  "scripts": {
+    "build:lib": "microbundle --jsx React.createElement --jsxFragment React.Fragment --jsxImportSource react --css-modules true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}

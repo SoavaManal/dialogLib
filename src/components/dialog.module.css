@@ -1,0 +1,85 @@
+ 
+ /* overlay effect */ 
+  .overlayModal {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    width: 100%;
+    height: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+/* Style for the main modal container */
+  .modal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: auto;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    background-color: white;
+    position: relative;
+  }
+
+/* Style for the close button of the modal */
+.modal_close {
+  color: white;
+  background-color: red; /* Changement de la couleur de fond en rouge */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  right: -5px; 
+}
+
+/* Style for the title of the modal */
+.modal_title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -15px;
+  left: 5px; 
+}
+
+/* Style for the content of the modal */
+  .modal_content{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+/* Resetting styles to default */
+  .modal_button {
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Common style for links and buttons */
+  .modal_button {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin: 10px;
+    border-radius: 5px; 
+    border: 1px solid #333; 
+    color: #fff; 
+    background-color: #007bff;
+    text-align: center;
+}
+
+/* Hover styling to improve user interaction */
+  .modal_button:hover {
+    background-color: #0056b3; 
+  }
