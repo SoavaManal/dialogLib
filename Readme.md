@@ -14,7 +14,7 @@ import Dialog from "dialog";
 
 ## Usage
 
-![usage de compenent](./assets_readme/code.png)
+![usage de compenent](https://github.com/SoavaManal/dialogLib/blob/main/assets_readme/code.PNG)
 
 ## Props
 
@@ -36,4 +36,4 @@ import "dialog/dist/lib.css";
 
 ### display review
 
-![display modal](./assets_readme/Modal.png)
+![display modal](https://github.com/SoavaManal/dialogLib/blob/main/assets_readme/Modal.PNG)
