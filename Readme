@@ -1,65 +1,39 @@
-React Dialog Component
+# React Dialog Component
+
 This is a simple React dialog component designed for easy integration into your web applications. It provides a customizable modal with options for displaying a title, message, and buttons for user interaction.
 
-Installation
-Install the package using npm:
+## Installation
 
-bash
-Copy code
-npm install your-dialog-component
-Import the component in your React application:
+### Install the package using npm:
 
-javascript
-Copy code
-import Dialog from "./path-to-your-dialog-component/dialog.module.css";
-Usage
-javascript
-Copy code
-import React from 'react';
-import Dialog from './path-to-your-dialog-component';
+npm install dialog
 
-function App() {
-// Your component logic here
+### Import the component in your React application:
 
-return (
-<div>
-{/_ Other components _/}
-<Dialog
-title="Dialog Title"
-mesage="Dialog Message"
-question="Are you sure?"
-handleCloseModale={() => /_ your close modal logic here _/}
-confirmLink="https://example.com"
-confirmMesage="Confirm"
-cancelMesage="Cancel"
-/>
-</div>
-);
-}
+import Dialog from "dialog";
 
-export default App;
-Props
-title (string): The title of the dialog.
-mesage (string): The main message content of the dialog.
-question (string): Additional question content if needed.
-handleCloseModale (function): Callback function for closing the modal.
-confirmLink (string): Link for the confirmation button.
-confirmMesage (string): Text for the confirmation button.
-cancelMesage (string): Text for the cancel button.
-Styles
+## Usage
+
+![usage de compenent](""./assets_readme/code.png)
+
+## Props
+
+- title (string): The title of the dialog.
+- mesage (string): The main message content of the dialog.
+- question (string): Additional question content if needed.
+- handleCloseModale (function): Callback function for closing the modal.
+- confirmLink (string): Link for the confirmation button.
+- confirmMesage (string): Text for the confirmation button.
+- cancelMesage (string): Text for the cancel button.
+
+## Styles
+
 This component uses CSS modules for styling. Ensure that you import the styles properly:
 
-javascript
-Copy code
-import css from "./path-to-your-dialog-component/dialog.module.css";
-Apply the styles to the respective elements in your component:
+### Import
 
-javascript
-Copy code
+import "dialog/dist/lib.css";
 
-<div className={css.overlayModal}>
-  <div className={css.modal}>
-    {/* ... */}
-  </div>
-</div>
-Feel free to customize the styles as needed for your application.
+### display review
+
+![display modal](""./assets_readme/Modal.png)
