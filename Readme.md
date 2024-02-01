@@ -14,7 +14,7 @@ import Dialog from "dialog";
 
 ## Usage
 
-![usage de compenent]("./assets_readme/code.png")
+![usage de compenent](./assets_readme/code.png)
 
 ## Props
 
@@ -36,4 +36,4 @@ import "dialog/dist/lib.css";
 
 ### display review
 
-![display modal](""./assets_readme/Modal.png)
+![display modal](./assets_readme/Modal.png)
