@@ -6,11 +6,11 @@ This is a simple React dialog component designed for easy integration into your 
 
 ### Install the package using npm:
 
-npm install dialog
+npm install oc_ms_dialog
 
 ### Import the component in your React application:
 
-import Dialog from "dialog";
+import Dialog from "oc_ms_dialog";
 
 ## Usage
 
