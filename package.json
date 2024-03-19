@@ -1,14 +1,14 @@
 {
   "name": "oc_ms_dialog",
   "version": "1.0.2",
-  "description": "",
+  "description": "This React library facilitates the opening of modal windows, empowering users to trigger modal pop-ups. You can tailor modal content, such as redirection buttons and informative messages, with certain parameters being optional for flexibility in usage.",
   "main": "./dist/lib.umd.js",
   "module": "./dist/lib.module.js",
   "source": "src/lib.package.js",
   "scripts": {
     "build:lib": "microbundle --jsx React.createElement --jsxFragment React.Fragment --jsxImportSource react --css-modules true"
   },
-  "author": "",
+  "author": "Manal Soava",
   "license": "ISC",
   "devDependencies": {
     "microbundle": "^0.15.1"

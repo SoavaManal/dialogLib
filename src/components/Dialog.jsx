@@ -6,8 +6,8 @@ export default function Dialog({
   question,
   handleCloseModale,
   confirmLink,
-  confirmMesage,
-  cancelMesage,
+  confirmLabelButton,
+  cancelLabelButton,
 }) {
   return (
     <div className={css.overlayModal}>
@@ -26,10 +26,10 @@ export default function Dialog({
           {confirmLink && (
             <div>
               <a href={confirmLink} className={css.modal_button}>
-                {confirmMesage}
+                {confirmLabelButton}
               </a>
               <button onClick={handleCloseModale} className={css.modal_button}>
-                {cancelMesage}
+                {cancelLabelButton}
               </button>
             </div>
           )}

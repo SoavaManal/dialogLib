@@ -11,6 +11,7 @@ npm install oc_ms_dialog
 ### Import the component in your React application:
 
 import Dialog from "oc_ms_dialog";
+import "oc_ms_dialog/dist/lib.css";
 
 ## Usage
 
@@ -18,21 +19,17 @@ import Dialog from "oc_ms_dialog";
 
 ## Props
 
-- title (string): The title of the dialog.
-- mesage (string): The main message content of the dialog.
-- question (string): Additional question content if needed.
-- handleCloseModale (function): Callback function for closing the modal.
-- confirmLink (string): Link for the confirmation button.
-- confirmMesage (string): Text for the confirmation button.
-- cancelMesage (string): Text for the cancel button.
+- title (string): The title of the dialog (optional).
+- mesage (string): The main message content of the dialog (requierd).
+- handleCloseModale (function): Callback function for closing the modal(requierd).
+- question (string): Additional question content if needed (optional).
+- confirmLink (string): Link for the confirmation button (optional).
+- confirmLabelButton (string): Text for the confirmation button (optional).
+- cancelLabelButton (string): Text for the cancel button (optional).
 
 ## Styles
 
 This component uses CSS modules for styling. Ensure that you import the styles properly:
-
-### Import
-
-import "dialog/dist/lib.css";
 
 ### display review
 
